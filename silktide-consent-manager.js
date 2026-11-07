@@ -861,7 +861,7 @@ class SilktideConsentManager {
    */
   getSilktideLogoLinkContent() {
     const silktideLogoLink = `
-      <a class="stcm-logo" href="https://silktide.com/consent-manager" rel="noreferrer" aria-label="${
+      <a class="stcm-logo" href="https://silktide.com/consent-manager" rel="noreferrer" title="Silktide Consent Manager" aria-label="${
         this.config.text?.preferences?.silktideLinkAccessibleLabel
         || 'Visit the official Silktide Consent Manager website to get such a consent manager for free'
       }">
