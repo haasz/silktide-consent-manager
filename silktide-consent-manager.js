@@ -1159,12 +1159,11 @@ class SilktideConsentManager {
   createCookieIcon() {
     this.icon = document.createElement('button');
     this.icon.id = 'stcm-icon';
-    this.icon.title = 'Manage your consent preferences for this site';
+    this.icon.title =
+      this.config.text?.prompt?.preferencesButtonAccessibleLabel ||
+      'Manage cookie preferences';
+    this.icon.ariaLabel = this.icon.title;
     this.icon.innerHTML = this.getCookieIconContent();
-
-    if (this.config.text?.prompt?.preferencesButtonAccessibleLabel) {
-      this.icon.ariaLabel = this.config.text?.prompt?.preferencesButtonAccessibleLabel;
-    }
 
     // Ensure wrapper exists
     if (!this.wrapper || !document.body.contains(this.wrapper)) {
