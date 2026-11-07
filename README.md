@@ -121,8 +121,7 @@ text: {
     description: '<p>Choose which cookies you want to accept.</p>',
     saveButtonText: 'Save and close',
     saveButtonAccessibleLabel: 'Save your cookie preferences',
-    creditLinkText: 'Get this consent manager for free',
-    creditLinkAccessibleLabel: 'Visit Silktide Consent Manager',
+    silktideLinkAccessibleLabel: 'Visit the official Silktide Consent Manager website to get such a consent manager for free',
   },
 }
 ```

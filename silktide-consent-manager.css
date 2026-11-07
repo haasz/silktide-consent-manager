@@ -191,7 +191,8 @@ Banner
   color: var(--textColor);
 }
 
-#stcm-banner a.stcm-logo {
+#stcm-banner a.stcm-logo,
+#stcm-modal a.stcm-logo {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -446,14 +447,6 @@ Modal - Footer
 #stcm-modal footer a {
   margin-left: auto;
   padding: 0;
-}
-
-#stcm-modal footer a.stcm-credit-link {
-  text-decoration: none;
-}
-
-#stcm-modal footer a.stcm-credit-link:hover {
-  text-decoration: underline;
 }
 
 /* Cookie Icon */
