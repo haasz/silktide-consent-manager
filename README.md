@@ -119,6 +119,7 @@ text: {
   preferences: {
     title: 'Customize your preferences',
     description: '<p>Choose which cookies you want to accept.</p>',
+    closeButtonAccessibleLabel: 'Close without saving',
     saveButtonText: 'Save and close',
     saveButtonAccessibleLabel: 'Save your cookie preferences',
     silktideLinkAccessibleLabel: 'Visit the official Silktide Consent Manager website to get such a consent manager for free',
