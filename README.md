@@ -307,11 +307,11 @@ The consent manager uses CSS variables for easy customization. Override these in
 
 ```css
 #stcm-wrapper {
+  --boxShadow: -5px 5px 10px 0px #00000012, 0px 0px 50px 0px #0000001a;
   --fontFamily: 'Your Font', sans-serif;
   --primaryColor: #533BE2;
   --backgroundColor: #FFFFFF;
   --textColor: #253B48;
-  --boxShadow: -5px 5px 10px 0px #00000012, 0px 0px 50px 0px #0000001a;
   --backdropBackgroundColor: #00000077;
   --backdropBackgroundBlur: 5px;
   --iconColor: #533BE2;
